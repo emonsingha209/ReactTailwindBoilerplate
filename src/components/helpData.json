@@ -1,0 +1,17 @@
+[
+  {
+    "icon": "fa-solid fa-handshake-simple",
+    "title": "Resolution Center",
+    "description": "Resolve transaction or account issues"
+  },
+  {
+    "icon": "fa-solid fa-hand-holding-heart",
+    "title": "Ask the Community",
+    "description": "Find answers or join the conversation"
+  },
+  {
+    "icon": "fa-solid fa-message",
+    "title": "Message Center",
+    "description": "Send, receive, and view your PayPal messages"
+  }
+]

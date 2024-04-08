@@ -1,0 +1,17 @@
+[
+  {
+    "icon": "fa-solid fa-users",
+    "title": "Community Forum",
+    "description": "Find answers or join the conversation"
+  },
+  {
+    "icon": "fa-solid fa-handshake-simple",
+    "title": "Resolution Center",
+    "description": "Resolve transaction or account issues"
+  },
+  {
+    "icon": "fa-solid fa-circle-question",
+    "title": "Contact us",
+    "description": "Contact Customer Service"
+  }
+]
