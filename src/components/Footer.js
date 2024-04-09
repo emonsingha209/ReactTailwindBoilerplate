@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="flex justify-center w-full py-20">
+    <footer className="flex justify-center w-full px-4 py-20 md:px-0">
       <div className="flex flex-col w-full max-w-6xl px-1 text-primary">
         <div className="w-40 mb-3">
           <img
@@ -11,8 +11,8 @@ const Footer = () => {
             className="w-full h-full"
           />
         </div>
-        <div className="flex justify-between w-full py-5 border-b-2">
-          <ul className="flex gap-5">
+        <div className="flex flex-wrap justify-between w-full gap-5 py-5 border-b-2">
+          <ul className="flex flex-wrap gap-x-5 gap-y-3">
             <li>
               <a href="/#" className="text-sm font-bold">
                 Help
@@ -58,8 +58,8 @@ const Footer = () => {
             <img src="/img/usaflag.jpg" alt="flag" className="w-full h-full" />
           </div>
         </div>
-        <div className="flex justify-between py-5">
-          <ul className="flex gap-5">
+        <div className="flex flex-wrap justify-between gap-3 py-5">
+          <ul className="flex flex-wrap gap-x-5 gap-y-3">
             <li>
               <a href="/#" className="text-sm font-bold">
                 About
@@ -96,7 +96,7 @@ const Footer = () => {
               </a>
             </li>
           </ul>
-          <div className="flex items-center gap-5">
+          <div className="flex flex-wrap items-center gap-x-5 gap-y-3">
             <span className="mt-0.5 text-sm text-gray-600 ">
               &copy; 1999-2022
             </span>

@@ -6,11 +6,11 @@ const ButtonGroup = ({ buttons, activeButton, setActiveButton }) => {
   };
 
   return (
-    <div className="w-fit bg-[#F0EFE9] p-0.5 rounded-full text-gray-600 text-sm">
+    <div className="w-fit bg-[#F0EFE9] p-0.5 rounded-full text-gray-600 text-sm flex justify-center">
       {buttons.map((button, index) => (
         <button
           key={index}
-          className={`px-8 py-2 rounded-full transition-colors ${
+          className={`px-2 md:px-8 py-2 rounded-full transition-colors ${
             button === activeButton ? "bg-white text-primary font-bold" : ""
           }`}
           onClick={() => handleButtonClick(button)}

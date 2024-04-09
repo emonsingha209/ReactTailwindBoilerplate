@@ -53,22 +53,22 @@ const HelpCenter = () => {
               />
             ))}
           </div>
-          <div className="flex justify-center mt-5">
+          <div className="flex flex-wrap justify-center mt-5">
             <ButtonGroup
               buttons={buttonData}
               activeButton={activeTopButton}
               setActiveButton={setActiveTopButton}
             />
           </div>
-          <div className="flex gap-3 mt-10 ">
-            <div className="w-1/4">
+          <div className="flex flex-wrap mt-10">
+            <div className="w-full md:w-1/4">
               <SideButtonGroup
                 buttons={sideButtonData}
                 activeButton={activeSideButton}
                 setActiveButton={setActiveSideButton}
               />
             </div>
-            <div className="w-1/2 pt-1 pl-4">
+            <div className="w-full pt-1 pl-4 md:w-1/2">
               <h2 className="text-2xl ">{faqData.title}</h2>
               <ul className="mt-4 list-none">
                 {faqData.questions.map((data, index) => (
@@ -80,7 +80,7 @@ const HelpCenter = () => {
                 ))}
               </ul>
             </div>
-            <div className="w-1/4">
+            <div className="w-full md:w-1/4">
               <div className="text-center bg-[#F7F9FB] shadow-md rounded-lg px-7  py-10 text-xs">
                 <p className="mb-4 font-serif text-xs font-semibold leading-relaxed">
                   Get customized help with your account and access your message
@@ -107,7 +107,7 @@ const HelpCenter = () => {
           </div>
           <div className="flex justify-center my-8">
             <div className="flex justify-center w-4/5 bg-[#F6F7FB] p-5">
-              <div className="flex items-center justify-around w-11/12 gap-36 ">
+              <div className="flex flex-wrap items-center justify-around w-11/12 md:flex-nowrap gap-x-36 gap-y-8">
                 <div>
                   <h3 className="mb-2 text-lg">
                     How are we doing?
